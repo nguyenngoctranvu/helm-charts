@@ -1,0 +1,19 @@
+apiVersion: v2
+name: snappass
+description: A Helm chart for snappass
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.6.0"
+
+maintainers:
+  - name: victor
+    email: nguyenngoctranvu@gmail.com
+
+dependencies:
+  - name: redis
+    version: "17.11.*"
+    repository: https://charts.bitnami.com/bitnami
+    condition: redis.enabled
