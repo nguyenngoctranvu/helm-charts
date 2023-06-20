@@ -1,10 +1,10 @@
 apiVersion: v2
 name: az-auth
-description: A Helm chart for Kubernetes
+description: A Helm chart for verification with Azure
 
 type: application
 
-version: 0.1.0
+version: 0.1.1
 
 appVersion: "2.2.0"
 
