@@ -18,7 +18,7 @@ You can then run `helm search repo mychart` to see the charts.
 helm repo index --url https://nguyenngoctranvu.github.io/helm-charts/chart .
 ```
 
-## Add new charts to an existing repository
+## Updating index
 ```
-helm repo index --url https://nguyenngoctranvu.github.io/helm-chart/chart --merge index.yaml .
+helm repo index --url https://nguyenngoctranvu.github.io/helm-charts .
 ```
