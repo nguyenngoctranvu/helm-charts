@@ -1,9 +1,23 @@
 apiVersion: v1
 entries:
+  az-auth:
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2023-06-20T12:45:22.924723+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 87e06faf02971e464e9e970598c2ef4af6026f966d0b01866267244f15cc0dbb
+    maintainers:
+    - email: nguyenngoctranvu@gmail.com
+      name: victor
+    name: az-auth
+    type: application
+    urls:
+    - https://nguyenngoctranvu.github.io/helm-charts/az-auth/az-auth-0.1.0.tgz
+    version: 0.1.0
   snappass:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2023-06-16T14:10:04.957135+07:00"
+    created: "2023-06-20T12:45:22.929478+07:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -17,6 +31,6 @@ entries:
     name: snappass
     type: application
     urls:
-    - https://nguyenngoctranvu.github.io/helm-charts/snappass-0.1.0.tgz
+    - https://nguyenngoctranvu.github.io/helm-charts/az-auth/snappass-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-16T14:10:04.950399+07:00"
+generated: "2023-06-20T12:45:22.92427+07:00"
