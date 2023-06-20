@@ -3,7 +3,7 @@ entries:
   az-auth:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-06-20T12:51:24.344168+07:00"
+    created: "2023-06-20T14:54:07.608474+07:00"
     description: A Helm chart for verification with Azure
     digest: 06eb4ad886b9414c0d15858d57457566beab51c83e937bbe28c5643258375ee7
     maintainers:
@@ -12,11 +12,11 @@ entries:
     name: az-auth
     type: application
     urls:
-    - https://nguyenngoctranvu.github.io/helm-charts/az-auth/az-auth-0.1.1.tgz
+    - https://nguyenngoctranvu.github.io/helm-charts/az-auth-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-06-20T12:51:24.343848+07:00"
+    created: "2023-06-20T14:54:07.60819+07:00"
     description: A Helm chart for Kubernetes
     digest: 87e06faf02971e464e9e970598c2ef4af6026f966d0b01866267244f15cc0dbb
     maintainers:
@@ -25,12 +25,12 @@ entries:
     name: az-auth
     type: application
     urls:
-    - https://nguyenngoctranvu.github.io/helm-charts/az-auth/az-auth-0.1.0.tgz
+    - https://nguyenngoctranvu.github.io/helm-charts/az-auth-0.1.0.tgz
     version: 0.1.0
   snappass:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2023-06-20T12:51:24.348036+07:00"
+    created: "2023-06-20T14:54:07.61221+07:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -44,6 +44,6 @@ entries:
     name: snappass
     type: application
     urls:
-    - https://nguyenngoctranvu.github.io/helm-charts/az-auth/snappass-0.1.0.tgz
+    - https://nguyenngoctranvu.github.io/helm-charts/snappass-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-20T12:51:24.343422+07:00"
+generated: "2023-06-20T14:54:07.607804+07:00"
