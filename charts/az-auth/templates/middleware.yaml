@@ -1,0 +1,12 @@
+{{- if .Values.serviceAccount.create -}}
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: {{ include "az-auth.fullname" . }}
+spec:
+  forwardAuth:
+    address: {{ include "az-auth.forwardAuthAddress" . }}
+    authResponseHeaders:
+      - "X-Forwarded-User"
+    trustForwardHeader: true
+{{- end }}

@@ -1,0 +1,13 @@
+apiVersion: v2
+name: az-auth
+description: A Helm chart for Kubernetes
+
+type: application
+
+version: 0.1.0
+
+appVersion: "2.2.0"
+
+maintainers:
+  - name: victor
+    email: nguyenngoctranvu@gmail.com
